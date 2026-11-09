@@ -4,138 +4,145 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="responsive.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
     <title>Jamel Eusebio</title>
 </head>
 <body>
-    <div class="l-container">
-        <header class="l-header">
-            <div class="l-header-navigation">
-                <nav class="l-navigation">
-                    <figure class="l-header__logo">
-                        <img src="images/Jamel_Eusebio.svg" alt="Jamel Eusebio" width="48" height="48" loading="eager">
-                        <p class="l-header__logo-subtext">Jamel Eusebio</p>
-                    </figure>                   
 
-                    <ul class="l-navigation__list" id="navMenu">
-                        <li class="l-navigation__item"><a href="#" class="active">Home</a></li>
-                        <li class="l-navigation__item"><a href="#">Project</a></li>
-                        <li class="l-navigation__item"><a href="#">Services</a></li>
-                        <li class="l-navigation__item"><a href="#">Resume</a></li>
-                        <li class="l-navigation__item"><a href="#">Testimonial</a></li>
-                        <li class="l-navigation__item"><a href="#">About</a></li>
-                        <li class="l-navigation__item"><a href="#">Article</a></li>
-                        <li class="l-navigation__item">
-                            <a href="#" class="l-navigation__button">Contact</a>
+    <div class="page-top-gradient">
+
+        <div class="l-container">
+            <header class="l-header">
+                <nav class="l-nav">
+                    <figure class="l-header__logo">
+                        <img src="images/Jamel_Eusebio_Logo.svg" alt="Jamel Eusebio" width="48" height="48" loading="eager">
+                        <figcaption class="l-header__logo-text">Jamel Eusebio</figcaption>
+                    </figure>
+
+                    <ul class="l-nav__list" id="navMenu">
+                        <li class="l-nav__item"><a href="#" class="l-nav__link l-nav__link--active">Home</a></li>
+                        <li class="l-nav__item"><a href="#" class="l-nav__link">Project</a></li>
+                        <li class="l-nav__item"><a href="#" class="l-nav__link">Services</a></li>
+                        <li class="l-nav__item"><a href="#" class="l-nav__link">Resume</a></li>
+                        <li class="l-nav__item"><a href="#" class="l-nav__link">Testimonial</a></li>
+                        <li class="l-nav__item"><a href="#" class="l-nav__link">About</a></li>
+                        <li class="l-nav__item"><a href="#" class="l-nav__link">Article</a></li>
+                        <li class="l-nav__item">
+                            <a href="#" class="l-nav__button">Contact</a>
                         </li>
                     </ul>
                 </nav>
-            </div>
-        </header>
-    </div>
+            </header>
+        </div>
 
-    <main class="l-main-content">
-        <section class="p-section-keyvisual">
-            <div class="p-section-keyvisual__content">
-                <h2 class="p-section-keyvisual__title">👋 Hey, I’m Jamel<br>Full-Stack Developer.</h2>
+        <main class="l-main">
+            <section class="p-section-keyvisual">
+                <div class="p-section-keyvisual__content">
+                    <h1 class="p-section-keyvisual__title">👋 Hey, I’m Jamel<br>Full-Stack Developer.</h1>
+                    <p class="p-section-keyvisual__text">Full Stack Frontend Developer and Content Writing Based on LA. I specialize in Bug Fixing, Responsive Web Design, and Visual Development.</p>
 
-                <p class="p-section-keyvisual__text">Full Stack Frontend Developer and Content Writing Based on LA. I specialize in Bug Fixing, Responsive Web Design, and Visual Development.</p>
-
-                <div class="p-section-keyvisual__button">
-                    <a href="#" class="keyvisual-here-me">
-                        <span class="keyvisual-item-left">HIRE ME</span>
-                        <img src="images/ArrowRight.svg" alt="Arrow Right" width="24" height="24">
-                    </a>
-
-                    <div class="keyvisual-intro">
-                        <div class="divider"></div>
-                        <a href="#" class="keyvisual-play-intro">
-                            <img src="images/Play.svg" alt="Play" width="24" height="24">
-                            <span class="keyvisual-item-right">Play Intro</span>
+                    <div class="p-section-keyvisual__actions">
+                        <a href="#" class="c-button c-button--primary">
+                            <span class="c-button__text">HIRE ME</span>
+                            <img src="images/ArrowRight.svg" alt="Arrow Right" width="24" height="24">
                         </a>
+
+                        <div class="p-section-keyvisual__intro">
+                            <div class="p-section-keyvisual__divider"></div>
+                            <a href="#" class="c-button c-button--ghost">
+                                <img src="images/Play.svg" alt="Play" width="24" height="24">
+                                <span class="c-button__text">Play Intro</span>
+                            </a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            
-            <figure class="p-section-keyvisual__image">
-                <!-- <img src="images/Jamel_Eusebio.svg" alt="Jamel Eusebio"> -->
-            </figure>
-        </section>
 
-        <section class="p-section-company">
-            <div class="p-section-company__wrapper">
-                <div class="p-section-company__content">
-                    <h2 class="p-section-company__title">I work with over 279+ happy clients all over the world.</h2>
+                <figure class="p-section-keyvisual__image">
+                    <img src="images/Jamel_Eusebio.png" alt="Jamel Eusebio">
+                </figure>
+            </section>
 
-                    <p class="p-section-company__text">Suspendisse eget ultricies felis, in lacinia lectus. Morbi accumsan dapibus tortor, in fermentum odio malesuada in aliquam sed ipsum tristique.</p>
+            <section class="p-section-company">
+                <div class="p-section-company__wrapper">
+                    <div class="p-section-company__content">
+                        <h2 class="p-section-company__title">I work with over 279+ happy <br> clients all over the world.</h2>
+                        <p class="p-section-company__text">Suspendisse eget ultricies felis, in lacinia lectus. Morbi accumsan dapibus tortor, in fermentum odio malesuada in aliquam sed ipsum tristique.</p>
+                    </div>
+
+                    <ul class="p-section-company__brands">
+                        <li class="p-section-company__logo">
+                            <img src="images/Amazon.svg" alt="Amazon" width="200" height="112">
+                        </li>
+                        <li class="p-section-company__logo p-section-company__logo--bottom">
+                            <img src="images/Google.svg" alt="Google" width="200" height="112">
+                        </li>
+                        <li class="p-section-company__logo">
+                            <img src="images/Spotify.svg" alt="Spotify" width="200" height="112">
+                        </li>
+                        <li class="p-section-company__logo">
+                            <img src="images/Dribbble.svg" alt="Dribbble" width="200" height="112">
+                        </li>
+                        <li class="p-section-company__logo p-section-company__logo--bottom">
+                            <img src="images/Microsolf.svg" alt="Microsoft" width="200" height="112">
+                        </li>
+                        <li class="p-section-company__logo">
+                            <img src="images/Linked.svg" alt="LinkedIn" width="200" height="112">
+                        </li>
+                    </ul>
                 </div>
+            </section>
+        </main>
 
-                <ul class="p-section-company__brand">
-                    <li class="p-section-company__logo">
-                        <img src="images/Amazon.svg" alt="Amazon" width="200" height="112">
-                    </li>
-                    <li class="p-section-company__logo--below">
-                        <img src="images/Google.svg" alt="Google" width="200" height="112">
-                    </li>
-                    <li class="p-section-company__logo">
-                        <img src="images/Spotify.svg" alt="Spotify" width="200" height="112">
-                    </li>
-                    <li class="p-section-company__logo">
-                        <img src="images/Dribbble.svg" alt="Dribbble" width="200" height="112">
-                    </li>
-                    <li class="p-section-company__logo--below">
-                        <img src="images/Microsolf.svg" alt="Microsoft" width="200" height="112">
-                    </li>
-                    <li class="p-section-company__logo">
-                        <img src="images/Linked.svg" alt="LinkedIn" width="200" height="112">
-                    </li>
-                </ul>
-            </div>
-        </section>
-    </main>
+    </div>
 
     <section class="p-section-case-study">
         <div class="l-container">
             <div class="p-section-case-study__wrapper">
-                <div class="p-section-case-study-content">
-                    <h2 class="p-section-case-study__title">Latest Case Study</h2>
+                
+                <div class="p-section-case-study__header">
+                    <div class="p-section-case-study__content">
+                        <h2 class="p-section-case-study__title">Latest Case Study</h2>
+                        <p class="p-section-case-study__text">Morbi risus elit, fringilla in cursus a, molestie non dui. Nunc accumsan gravida risus, ac semper libero mollis ut.</p>
+                    </div>
 
-                    <p class="p-section-case-study__text">Morbi risus elit, fringilla in cursus a, molestie non dui. Nunc accumsan gravida risus, ac semper libero mollis ut.</p>
+                    <div class="p-section-case-study__controls">
+                        <button class="c-button c-button--circle" id="prevbutton" aria-label="Previous Slide">
+                            <img src="images/ArrowLeft.svg" alt="Arrow Left" width="24" height="24" loading="lazy">
+                        </button>
+                        <button class="c-button c-button--circle" id="nextbutton" aria-label="Next Slide">
+                            <img src="images/ArrowRight.svg" alt="Arrow Right" width="24" height="24" loading="lazy">
+                        </button>
+                    </div>
                 </div>
 
-                <div class="button-common-primary">
-                    <button class="button-common" id="prevBtn" aria-label="Previous Slide">
-                        <img src="images/ArrowLeft.svg" alt="Arrow Left" width="24" height="24" loading="lazy">
-                    </button>
-
-                    <button class="button-common" id="nextBtn" aria-label="Next Slide">
-                        <img src="images/ArrowRight.svg" alt="Arrow Right" width="24" height="24" loading="lazy">
-                    </button>
-                </div>
-
-
-                <ul class="p-section-case-study__intro">
-                    <li class="p-section-case-study__image">
-                        <img src="images/Latest_Case_Study_Photo_03.png" alt="Latest Case Study Photo" width="424" height="536">
+                <ul class="p-section-case-study__list">
+                    <li class="p-section-case-study__item">
+                        <a href="#" class="p-section-case-study__link">
+                            <img src="images/Latest_Case_Study_Photo_03.png" alt="Relik - Admin Dashboard" width="424" height="536" loading="lazy">
+                            <div class="p-section-case-study__overlay">
+                                <span class="p-section-case-study__category">Java - HTML - CSS</span>
+                                <h3 class="p-section-case-study__item-title">Relik - Admin Dashboard</h3>
+                                <span class="p-section-case-study__view-more">View Case Study <img src="images/ArrowRight.svg" alt="Arrow" width="20" height="20"></span>
+                            </div>
+                        </a>
                     </li>
-
-                    <li class="p-section-case-study__image">
+                    <li class="p-section-case-study__item">
                         <img src="images/Latest_Case_Study_Photo_02.png" alt="Latest Case Study Photo" width="424" height="536">
                     </li>
-
-                    <li class="p-section-case-study__image">
+                    <li class="p-section-case-study__item">
                         <img src="images/Latest_Case_Study_Photo_01.png" alt="Latest Case Study Photo" width="424" height="536">
                     </li>
                 </ul>
 
-                <div class="slider-dots">
-                    <span class="dot dot-active"></span>
-                    <span class="dot dot-active"></span>
-                    <span class="dot dot-active"></span>
-                    <span class="dot dot-active"></span>
-                    <span class="dot dot-active"></span>
+                <div class="p-section-case-study__dots">
+                    <span class="p-section-case-study__dot p-section-case-study__dot--active"></span>
+                    <span class="p-section-case-study__dot p-section-case-study__dot--active"></span>
+                    <span class="p-section-case-study__dot p-section-case-study__dot--active"></span>
+                    <span class="p-section-case-study__dot p-section-case-study__dot--active"></span>
+                    <span class="p-section-case-study__dot p-section-case-study__dot--active"></span>
                 </div>
             </div>
         </div>
@@ -143,52 +150,43 @@
 
     <section class="p-section-services">
         <div class="l-container">
-            <div class="p-section-services__content">
-                <h2 class="p-section-services__content--title">My Services</h2>
-                <p class="p-section-services__content--text">Morbi risus elit, fringilla in cursus a, molestie non dui. Nunc accumsan gravida risus, ac semper libero mollis ut.</p>
+            <div class="p-section-services__header">
+                <h2 class="p-section-services__title">My Services</h2>
+                <p class="p-section-services__subtitle">Morbi risus elit, fringilla in cursus a, molestie non dui. Nunc accumsan gravida risus, ac semper libero mollis ut.</p>
             </div>
 
-            <div class="p-section-services__item">
-                <figure class="p-section-services__box">
+            <div class="p-section-services__grid">
+                <figure class="p-section-services__card">
                     <img src="images/Back-end_Development.svg" alt="Back-end Development" width="344" height="248" loading="lazy">
-
-                    <figcaption class="p-section-services__content--box">
-                        <h3 class="p-section-services__content--title">Back-end Development</h3>
-
-                        <p class="p-section-services__content--description">Vivamus in quam ut felis consectetur imperdiet et sed metus. Nullam tristique scelerisque metus id dignissim.</p>
-
-                        <a href="#" class="button-common-second">
-                            <span class="button-common-second__item">Let’s Work Together</span>
+                    <figcaption class="p-section-services__card-body">
+                        <h3 class="p-section-services__card-title">Back-end Development</h3>
+                        <p class="p-section-services__card-text">Vivamus in quam ut felis consectetur imperdiet et sed metus. Nullam tristique scelerisque metus id dignissim.</p>
+                        <a href="#" class="c-button c-button--link">
+                            <span class="c-button__text">Let’s Work Together</span>
                             <img src="images/ArrowRightGreen.svg" alt="Arrow Right" width="24" height="24" loading="lazy">
                         </a>
                     </figcaption>
                 </figure>
 
-                <figure class="p-section-services__box">
+                <figure class="p-section-services__card">
                     <img src="images/Front-end_Development.svg" alt="Front-end Development" width="344" height="248" loading="lazy">
-
-                    <figcaption class="p-section-services__content--box">
-                        <h3 class="p-section-services__content--title">Front-end Development</h3>
-
-                        <p class="p-section-services__content--description">Vivamus in quam ut felis consectetur imperdiet et sed metus. Nullam tristique scelerisque metus id dignissim.</p>
-
-                        <a href="#" class="button-common-second">
-                            <span class="button-common-second__item">Let’s Work Together</span>
+                    <figcaption class="p-section-services__card-body">
+                        <h3 class="p-section-services__card-title">Front-end Development</h3>
+                        <p class="p-section-services__card-text">Vivamus in quam ut felis consectetur imperdiet et sed metus. Nullam tristique scelerisque metus id dignissim.</p>
+                        <a href="#" class="c-button c-button--link">
+                            <span class="c-button__text">Let’s Work Together</span>
                             <img src="images/ArrowRightGreen.svg" alt="Arrow Right" width="24" height="24" loading="lazy">
                         </a>
                     </figcaption>
                 </figure>
 
-                <figure class="p-section-services__box">
+                <figure class="p-section-services__card">
                     <img src="images/Content_Writing.svg" alt="Content Writing" width="344" height="248" loading="lazy">
-
-                    <figcaption class="p-section-services__content--box">
-                        <h3 class="p-section-services__content--title">Content Writing</h3>
-
-                        <p class="p-section-services__content--description">Vivamus in quam ut felis consectetur imperdiet et sed metus. Nullam tristique scelerisque metus id dignissim.</p>
-
-                        <a href="#" class="button-common-second">
-                            <span class="button-common-second__item">Let’s Work Together</span>
+                    <figcaption class="p-section-services__card-body">
+                        <h3 class="p-section-services__card-title">Content Writing</h3>
+                        <p class="p-section-services__card-text">Vivamus in quam ut felis consectetur imperdiet et sed metus. Nullam tristique scelerisque metus id dignissim.</p>
+                        <a href="#" class="c-button c-button--link">
+                            <span class="c-button__text">Let’s Work Together</span>
                             <img src="images/ArrowRightGreen.svg" alt="Arrow Right" width="24" height="24" loading="lazy">
                         </a>
                     </figcaption>
@@ -199,32 +197,147 @@
 
     <section class="p-section-feature">
         <div class="l-container">
-            <ul class="p-section-feature-box">
-                <li class="p-section-feature-item">
+            <ul class="p-section-feature__list">
+                <li class="p-section-feature__item">
                     <img src="images/Stack.svg" alt="Years of experience" width="48" height="48">
-                    <span class="p-section-feature-item__number">23+</span>
-                    <h2 class="p-section-feature-item__text">Years of experience</h2>
+                    <span class="p-section-feature__number">23+</span>
+                    <h2 class="p-section-feature__text">Years of experience</h2>
                 </li>
-
-                <li class="p-section-feature-item">
-                    <img src="images/Briefcase.svg" alt="Years of experience" width="48" height="48">
-                    <span class="p-section-feature-item__number">325+</span>
-                    <h2 class="p-section-feature-item__text">Completed Projects</h2>
+                <li class="p-section-feature__item">
+                    <img src="images/Briefcase.svg" alt="Completed Projects" width="48" height="48">
+                    <span class="p-section-feature__number">325+</span>
+                    <h2 class="p-section-feature__text">Completed Projects</h2>
                 </li>
-
-                <li class="p-section-feature-item">
-                    <img src="images/SmileyWink.svg" alt="Years of experience" width="48" height="48">
-                    <span class="p-section-feature-item__number">279+</span>
-                    <h2 class="p-section-feature-item__text">Happy Clients</h2>
+                <li class="p-section-feature__item">
+                    <img src="images/SmileyWink.svg" alt="Happy Clients" width="48" height="48">
+                    <span class="p-section-feature__number">279+</span>
+                    <h2 class="p-section-feature__text">Happy Clients</h2>
                 </li>
-
-                <li class="p-section-feature-item">
-                    <img src="images/Coffee.svg" alt="Years of experience" width="48" height="48">
-                    <span class="p-section-feature-item__number">1652+</span>
-                    <h2 class="p-section-feature-item__text">Hours of Work</h2>
+                <li class="p-section-feature__item">
+                    <img src="images/Coffee.svg" alt="Hours of Work" width="48" height="48">
+                    <span class="p-section-feature__number">1652+</span>
+                    <h2 class="p-section-feature__text">Hours of Work</h2>
                 </li>
             </ul>
         </div>
     </section>
+
+    <section class="p-section-testimonial">
+        <div class="l-container">
+            <div class="p-section-testimonial__wrapper">
+                <div class="p-section-testimonial__body">
+                    <h2 class="p-section-testimonial__title">Client Testimonial</h2>
+                    <p class="p-section-testimonial__text">Praesent interdum eu magna a imperdiet. Ut orci ipsum, rutrum id tortor sit amet, mattis cursus libero. Phasellus facilisis malesuada nibh vel commodo.</p>
+
+                    <div class="p-section-testimonial__content">
+                        <div class="p-section-testimonial__excerpt">
+                            <img src="images/Double_Quotes.svg" alt="Quotes Icon" width="40" height="40" loading="lazy">
+                            <p class="p-section-testimonial__description">“Great Designer, does great work and is very flexible with change. if you’re a programmer and are looking for UI/UX designer is definitely well qualified for the job.”</p>
+                        </div>
+
+                        <div class="p-section-testimonial__ccomment">
+                            <img src="images/Cameron_Williamson.svg" alt="Cameron Williamson" width="72" height="72" loading="lazy">
+                            <div class="p-section-testimonial__author">
+                                <span class="p-section-testimonial__author--name">Cameron Williamson</span>
+                                <span class="p-section-testimonial__author--role">Founder of <strong>Relik</strong></span>
+                            </div>
+
+                            <div class="p-section-testimonial__controls">
+                                <button class="c-button c-button--circle" id="prevbutton--second" aria-label="Previous Slide">
+                                    <img src="images/ArrowLeft.svg" alt="Arrow Left" width="24" height="24" loading="lazy">
+                                </button>
+                                <button class="c-button c-button--circle" id="nextbutton--second" aria-label="Next Slide">
+                                    <img src="images/ArrowRight.svg" alt="Arrow Right" width="24" height="24" loading="lazy">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <figure class="p-section-testimonial__video">
+                    <img src="images/Client_Testimonial.png" alt="/Client Testimonial" width="536" height="648" loading="lazy">
+                    <img src="images/Play_Icon.svg" alt="Play Icon" width="88" height="88" loading="lazy">
+                </figure>
+            </div>
+        </div>
+    </section>
+
+    <section class="p-section-project-idea">
+        <div class="l-container">
+            <div class="p-section-project-idea-item">
+                <div class="p-section-project-idea-right">
+                    <h2 class="p-section-project-idea-right__title">Have a project idea. Let’s work together!</h2>
+                    <p class="p-section-project-idea-right__text">Do you fancy saying hi to me or do you want to get started with your project and you need my help? Feel free to contact me.</p>
+
+                    <a href="#" class="c-button c-button--second">
+                        <span class="c-button__text--second">let’ work together</span>
+                        <img src="images/ArrowRight.svg" alt="Arrow Right" width="24" height="24">
+                    </a>
+                </div>
+
+                <ul class="p-section-project__left">
+                    <li class="p-section-project__left-contact">
+                        <img src="images/Envelope.svg" alt="Envelope" width="40" height="40" loading="lazy">
+
+                        <div class="p-section-project__left-intro">
+                            <p class="p-section-project__intro--text">Chat with me</p>
+                            <a class="p-section-project__intro--info" href="mailto:info@marvin.com">kevin.gilbert.com</a>
+                        </div>
+                    </li>
+
+                    <li class="p-section-project__left-contact">
+                        <img src="images/PhoneCall.svg" alt="Phone Call" width="40" height="40" loading="lazy">
+
+                        <div class="p-section-project__left-intro">
+                            <p class="p-section-project__intro--text">Call Me</p>
+                            <a class="p-section-project__intro--info" href="mailto:info@marvin.com">+1-202-555-0190</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer class="l-footer">
+        <div class="l-container">
+            <div class="l-footer-grid">
+                <div class="l-footer-profile">
+                    <figure class="l-header__logo">
+                        <img src="images/Jamel_Eusebio_Logo.svg" alt="Jamel Eusebio" width="48" height="48" loading="eager">
+                        <figcaption class="l-header__logo-text">Jamel Eusebio</figcaption>
+                    </figure>
+
+                    <span class="l-footer-address">4517 Ave. Manchester, Kentucky <br> 39495, Los Angeles, California, USA</span>
+                </div>
+
+                <div class="l-footer-column">
+                    <ul class="l-footer-column__list">
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Resume</li>
+                        <li>Article</li>
+                    </ul>
+
+                    <ul class="l-footer-column__list">
+                        <li>Services</li>
+                        <li>Projects</li>
+                        <li>Pricing Plans</li>
+                        <li>Contact</li>
+                    </ul>
+
+                    <ul class="l-footer-column__list">
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>CodePen</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="l-footer-bottom">
+                <span class="l-footer-bottom_coppyright">All content © 2006-Current Jamel Eusebio and respective copyright holders.</span>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
